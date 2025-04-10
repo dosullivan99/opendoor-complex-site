@@ -1,0 +1,25 @@
+[
+    {
+      "title": "Yoga Class",
+      "start": "2025-04-15T18:00:00",
+      "end": "2025-04-15T19:00:00",
+      "category": "class"
+    },
+    {
+      "title": "Spring Community Fair",
+      "start": "2025-04-20",
+      "category": "event"
+    },
+    {
+      "title": "Room Hire - Arts Group",
+      "start": "2025-04-17T14:00:00",
+      "end": "2025-04-17T16:00:00",
+      "category": "hire"
+    },
+    {
+      "title": "Sewing Workshop",
+      "start": "2025-04-22T10:00:00",
+      "category": "class"
+    }
+  ]
+  

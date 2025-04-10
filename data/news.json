@@ -1,0 +1,21 @@
+[
+    {
+      "title": "Spring Fair Announced!",
+      "date": "2025-04-10",
+      "summary": "Our annual Spring Fair returns May 5th! Enjoy music, local food, kids’ activities and more.",
+      "image": "assets/images/news/springfair.jpg"
+    },
+    {
+      "title": "New Yoga Classes This Month",
+      "date": "2025-04-03",
+      "summary": "Join our new weekly yoga sessions in the community studio every Tuesday and Thursday evening.",
+      "image": "assets/images/news/yoga.jpg"
+    },
+    {
+      "title": "Community Market Every Saturday",
+      "date": "2025-03-27",
+      "summary": "A variety of local vendors will be at the OpenDoor Complex every Saturday from 9AM–2PM.",
+      "image": "assets/images/news/market.jpg"
+    }
+  ]
+  

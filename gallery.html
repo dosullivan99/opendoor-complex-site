@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | OpenDoor Complex</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/gallery.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1>Gallery</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Explore Our Space</h2>
+
+    <div class="gallery-filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="events">Events</button>
+      <button data-filter="classes">Classes</button>
+      <button data-filter="facilities">Facilities</button>
+    </div>
+
+    <div class="gallery-grid">
+      <!-- Each image must have a category class for filtering -->
+      <div class="gallery-item events">
+        <img src="assets/images/gallery/event1.jpg" alt="Spring Fair 2024" />
+      </div>
+      <div class="gallery-item classes">
+        <img src="assets/images/gallery/class1.jpg" alt="Yoga Workshop" />
+      </div>
+      <div class="gallery-item facilities">
+        <img src="assets/images/gallery/hall1.jpg" alt="Main Hall Interior" />
+      </div>
+      <!-- Add more as needed -->
+    </div>
+  </main>
+
+  <div id="lightbox" class="lightbox hidden">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="Preview" />
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 OpenDoor Complex</p>
+    </div>
+  </footer>
+</body>
+</html>

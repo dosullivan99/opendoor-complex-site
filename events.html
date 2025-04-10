@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Events | OpenDoor Complex</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+  <script defer src="js/calendar.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1>Events at OpenDoor</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Events</a></li>
+          <!-- ... other links -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="calendar-filters">
+      <label for="categoryFilter">Filter by category:</label>
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="class">Class</option>
+        <option value="event">Community Event</option>
+        <option value="hire">Room Booking</option>
+      </select>
+    </div>
+    <div id="calendar"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 OpenDoor Complex</p>
+    </div>
+  </footer>
+</body>
+</html>

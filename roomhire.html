@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Room Hire | OpenDoor Complex</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1>Room Hire Enquiries</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Book a Room</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+      <label for="name">Full Name</label>
+      <input type="text" name="name" id="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" name="email" id="email" required>
+
+      <label for="date">Preferred Date</label>
+      <input type="date" name="date" id="date" required>
+
+      <label for="room">Room Type</label>
+      <select name="room" id="room" required>
+        <option value="">--Select--</option>
+        <option value="hall">Main Hall</option>
+        <option value="studio">Studio Room</option>
+        <option value="conference">Conference Room</option>
+      </select>
+
+      <label for="message">Additional Info</label>
+      <textarea name="message" id="message" rows="4"></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 OpenDoor Complex</p>
+    </div>
+  </footer>
+</body>
+</html>

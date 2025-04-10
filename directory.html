@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Business Directory | OpenDoor Complex</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/directory.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1>Local Business Directory</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html">Directory</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="directory-filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="cafe">Cafes</button>
+      <button data-filter="shop">Shops</button>
+      <button data-filter="service">Services</button>
+    </div>
+
+    <div id="directory" class="directory-list"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 OpenDoor Complex</p>
+    </div>
+  </footer>
+</body>
+</html>

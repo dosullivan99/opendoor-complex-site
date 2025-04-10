@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Bellaghy Brew",
+      "type": "cafe",
+      "description": "Locally roasted coffee, breakfast & lunch menu",
+      "website": "https://bellaghybrew.example.com"
+    },
+    {
+      "name": "Crafty Corner",
+      "type": "shop",
+      "description": "Handmade goods from local artisans",
+      "website": "https://craftycorner.example.com"
+    },
+    {
+      "name": "Bellaghy Fitness",
+      "type": "service",
+      "description": "Community gym offering classes and personal training",
+      "website": "https://bellaghyfitness.example.com"
+    },
+    {
+      "name": "The Village Florist",
+      "type": "shop",
+      "description": "Flowers and arrangements for every occasion",
+      "website": "https://villageflorist.example.com"
+    }
+  ]
+  
