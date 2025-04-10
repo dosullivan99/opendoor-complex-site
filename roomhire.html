@@ -3,46 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Room Hire | OpenDoor Complex</title>
+  <title>Room Hire | Open Door Complex</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="container">
-      <h1>Room Hire Enquiries</h1>
+  <nav class="nav">
+    <div class="layout">
+      <h1 class="nav__title">Open Door Complex</h1>
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="events.html" class="nav__link">Events</a></li>
+        <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li><a href="directory.html" class="nav__link">Directory</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <main class="container">
-    <h2>Book a Room</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
-      <label for="name">Full Name</label>
-      <input type="text" name="name" id="name" required>
+  <main class="layout">
+    <section class="hero">
+      <h2 class="hero__title">Room Hire Enquiries</h2>
+      <p class="hero__subtitle">Book our versatile spaces for your next event or gathering</p>
+    </section>
 
-      <label for="email">Email Address</label>
-      <input type="email" name="email" id="email" required>
+    <section class="form">
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="form__container">
+        <div class="form__group">
+          <input type="text" name="name" id="name" class="form__input" required>
+          <label for="name" class="form__label">Full Name</label>
+        </div>
 
-      <label for="date">Preferred Date</label>
-      <input type="date" name="date" id="date" required>
+        <div class="form__group">
+          <input type="email" name="email" id="email" class="form__input" required>
+          <label for="email" class="form__label">Email Address</label>
+        </div>
 
-      <label for="room">Room Type</label>
-      <select name="room" id="room" required>
-        <option value="">--Select--</option>
-        <option value="hall">Main Hall</option>
-        <option value="studio">Studio Room</option>
-        <option value="conference">Conference Room</option>
-      </select>
+        <div class="form__group">
+          <input type="date" name="date" id="date" class="form__input" required>
+          <label for="date" class="form__label">Preferred Date</label>
+        </div>
 
-      <label for="message">Additional Info</label>
-      <textarea name="message" id="message" rows="4"></textarea>
+        <div class="form__group">
+          <select name="room" id="room" class="form__select" required>
+            <option value="">--Select--</option>
+            <option value="hall">Main Hall</option>
+            <option value="studio">Studio Room</option>
+            <option value="conference">Conference Room</option>
+          </select>
+          <label for="room" class="form__label">Room Type</label>
+        </div>
 
-      <button type="submit">Submit Request</button>
-    </form>
+        <div class="form__group">
+          <textarea name="message" id="message" rows="4" class="form__textarea"></textarea>
+          <label for="message" class="form__label">Additional Info</label>
+        </div>
+
+        <button type="submit" class="btn btn--primary">Submit Request</button>
+      </form>
+    </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 OpenDoor Complex</p>
+  <footer class="footer">
+    <div class="layout">
+      <div class="footer__content">
+        <p class="footer__text">© 2024 Open Door Complex. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__link">Facebook</a>
+          <a href="#" class="footer__link">Instagram</a>
+          <a href="#" class="footer__link">Twitter</a>
+        </div>
+      </div>
     </div>
   </footer>
 </body>

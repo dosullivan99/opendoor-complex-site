@@ -3,75 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>OpenDoor Complex</title>
+  <title>Open Door Complex</title>
   <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/main.js"></script>
 </head>
 <body>
-  <header class="navbar">
-    <div class="container">
-      <h1>OpenDoor Complex</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="classes.html">Classes</a></li>
-          <li><a href="farmshop.html">Farm Shop</a></li>
-          <li><a href="roomhire.html">Room Hire</a></li>
-          <li><a href="directory.html">Directory</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+  <nav class="nav">
+    <div class="layout">
+      <h1 class="nav__title">Open Door Complex</h1>
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="events.html" class="nav__link">Events</a></li>
+        <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li><a href="directory.html" class="nav__link">Directory</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Welcome to the Heart of Bellaghy</h2>
-      <p>Your community. Your space.</p>
-    </div>
-  </section>
+  <main class="layout">
+    <section class="hero">
+      <h2 class="hero__title">Welcome to Open Door Complex</h2>
+      <p class="hero__subtitle">A vibrant community space for creativity, collaboration, and connection.</p>
+    </section>
 
-  <section class="highlights container">
-    <div class="card">
-      <h3>Upcoming Events</h3>
-      <p>Check our community calendar for activities and gatherings.</p>
-      <a href="events.html">View Events</a>
-    </div>
-    <div class="card">
-      <h3>Room Hire</h3>
-      <p>Affordable and flexible room bookings for any occasion.</p>
-      <a href="roomhire.html">Hire a Room</a>
-    </div>
-    <div class="card">
-      <h3>Local Businesses</h3>
-      <p>Support local shops and services around Bellaghy.</p>
-      <a href="directory.html">View Directory</a>
-    </div>
-  </section>
+    <section class="card-grid">
+      <article class="card">
+        <h3 class="card__title">Upcoming Events</h3>
+        <p class="card__content">Discover our latest workshops, performances, and community gatherings.</p>
+        <a href="events.html" class="card__action">View Events</a>
+      </article>
 
-  <section class="news container">
-    <h2>Latest News</h2>
-    <article>
-      <h4>Spring Fair – May 5th</h4>
-      <p>Music, food, and games for the whole family. Don’t miss it!</p>
-    </article>
-    <article>
-      <h4>New Classes Starting Soon</h4>
-      <p>Arts & crafts, yoga, computer skills, and more.</p>
-    </article>
-  </section>
+      <article class="card">
+        <h3 class="card__title">Our Spaces</h3>
+        <p class="card__content">Explore our versatile venues perfect for your next event or gathering.</p>
+        <a href="gallery.html" class="card__action">View Spaces</a>
+      </article>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 OpenDoor Complex. Bellaghy, Northern Ireland.</p>
-      <div class="socials">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
+      <article class="card">
+        <h3 class="card__title">Directory</h3>
+        <p class="card__content">Connect with our community of artists, makers, and creative professionals.</p>
+        <a href="directory.html" class="card__action">Browse Directory</a>
+      </article>
+    </section>
+
+    <section class="news">
+      <h2 class="news__title">Latest News</h2>
+      <div class="news__grid" id="news-grid">
+        <!-- News items will be loaded dynamically -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="layout">
+      <div class="footer__content">
+        <p class="footer__text">© 2024 Open Door Complex. All rights reserved.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__link">Facebook</a>
+          <a href="#" class="footer__link">Instagram</a>
+          <a href="#" class="footer__link">Twitter</a>
+        </div>
       </div>
     </div>
   </footer>
+
+  <script src="js/news.js"></script>
 </body>
 </html>
